@@ -20,8 +20,13 @@
         <label for="password_name">Mot de passe
             <input type="password" name="password_name" id="password_id">
         </label>
-        <button type="submit" class="waves-effect waves-light red darken-1 btn"><i class="material-icons left">check</i>Se Connecter</button>
-        <a href="inscription.php" class="waves-effect waves-light pink darken-1 btn"><i class="material-icons left">chevron_right</i>S'inscrire</a>
+        <button type="submit" class="waves-effect waves-light red darken-1 btn margin_boutton"><i class="material-icons left">check</i>Se Connecter</button>
+        <a href="inscription.php" class="waves-effect waves-light pink darken-1 btn margin_boutton"><i class="material-icons left">chevron_right</i>S'inscrire</a>
     </form>
 </body>
+
+<?php
+    include("CONFIG/footer.php")
+?>
+
 </html>
